@@ -1,1 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+nav{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:  white
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+nav a:hover{
+        color: #d4a373;
+    }
 
+h2{
+    font-family:'times new roman', Times, serif;
+    color: #666;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+section{
+    padding: 20px;
+}
+section.home{
+    background-image: url('images/coffee.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+}
+section.home h2{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+section.home p{
+    color: white;
+    font-size: 1.2em;
+    max-width: 800px;
+    line-height: 1.5;
+}
